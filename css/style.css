@@ -1,0 +1,617 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-image: url(../Images/inspect/03082018-design/Page1/01-Home/background_header.png);
+    background-size: 100% 100%;
+    height: 700px;
+}
+
+button{
+    
+}
+
+.navbar{
+    width: 100%;
+    height: 70px;
+}
+
+.toggle-nav{
+    width: 50px;
+    position: relative;
+    left: 15%;
+    top: 10px;
+    color: white;
+    display: none;
+}
+
+.navbar .navbar-brand{
+    width: 100px;
+    position: relative;
+    left: 15%;
+    top: 15px;
+    float: left;
+}
+
+.navbar .navbar-menu{
+    float: right;
+    position: relative;
+    right: 15%;
+}
+
+.navbar-menu a{
+    text-decoration: none;
+    font-family: Poppins;
+    color: white;
+    font-size: 15px;
+    position: relative;
+    top: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    font-family: Poppins;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.btn-rounded{
+    border-radius: 5px 5px 5px 5px;
+}
+
+.btn-login{
+    background-color: #3A7FD2;
+    border: none;
+    font-family: Poppins;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    font-size: 10px;
+}
+
+.btn-started{
+    background-color: white;
+    border: none;
+    font-family: Poppins;
+    padding: 10px 20px 10px 20px;
+    color: black;
+    font-size: 10px;
+}
+
+.container{
+    position: relative;
+    height: 600px;
+    width: 100%;
+    top: 0;
+}
+
+.header-left{
+    width: 35%;
+    height: 550px;
+    position: relative;
+    float: left;
+    left: 15%;
+}
+
+.header-left img{
+    width: 100%;
+    position: relative;
+    top: 50px;
+    float: right;
+}
+
+.header-right{
+    width: 35%;
+    height: 550px;
+    position: relative;
+    float: right;
+    right: 15%;
+}
+
+.header-right h1{
+    font-size: 40px;
+    font-family: Poppins;
+    color: white;
+    margin-left: 50px;
+    position: relative;
+    top: 50px;
+}
+
+.header-right p{
+    position: relative;
+    top: 50px;
+    color: white;
+    font-family: Poppins;
+    margin-left: 50px;
+    font-size: 13px;
+}
+
+.header-right .header-btn{
+    position: relative;
+    margin-left: 50px;
+    top: 60px;
+}
+
+.header-btn .btn-started{
+    float: left;
+}
+
+.btn-watch{
+    padding: 5px;
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
+}
+
+.header-btn .btn-watch img{
+    width: 20px;
+}
+
+.md-left{
+    position: relative;
+    left: 15%;
+    width: 25%;
+    height: 100%;
+    /* background-color: yellow; */
+    float: left;
+}
+
+.md-left h1{
+    font-family: Poppins;
+    font-size: 45px;
+    font-weight: 100;
+}
+
+.md-left p{
+    font-family: Poppins;
+    font-size: 13px;
+}
+
+.md-left button{
+    background: linear-gradient(270deg, #273F97 0%, #2481DE 100%);
+    color: white;
+}
+
+.md-right{
+    position: relative;
+    right: 15%;
+    width: 45%;
+    height: 100%;
+    float: right;
+    z-index: 2;
+}
+
+.md-right .block-left{
+    width: 50%;
+    float: left;
+    margin-top: 100px;
+}
+
+.md-right .block-right{
+    width: 50%;
+    float: right;
+    left: 50px;
+}
+
+.card{
+    width: 220px;
+    box-shadow: 0 10px 50px 0 rgba(0,0,0,0.05);
+    padding: 0 20px 0 20px;
+    border-radius: 6px;
+}
+
+.card .card-header img{
+    width: 50px;
+    margin-top: 50px;
+}
+
+.card .card-body h1{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.card .card-body p{
+    font-family: Poppins;
+    font-size: 12px;
+}
+
+.card .card-footer{
+    padding-bottom: 30px;
+}
+
+.card .card-footer p{
+    font-family: Poppins;
+    font-size: 13px;
+    color: #2481DE;
+}
+
+.card-2 {
+    margin-top: 50px;
+}
+
+.md-2{
+    background-image: url(../Images/inspect/03082018-design/Page1/01-Home/background_middle.png);
+    background-size: 70% 100%;
+    background-repeat: no-repeat;
+    background-position: right top;
+    top: 50px;
+    height: 800px;
+}
+
+.square{
+    width: 80%;
+    height: 500px;
+    position: relative;
+    left: 10%;
+    top: 220px;
+    background-color: white;
+    box-shadow: 0 10px 50px 0 rgba(0,0,0,0.05);
+}
+
+.square .square-left{
+    float: left;
+    width: 70%;
+    position: relative;
+    top: 100px;
+}
+
+.square .square-left h1{
+    font-family: Poppins;
+    font-size: 25px;
+    margin-left: 50px;
+    font-weight: 100;
+}
+
+.square .square-right{
+    float: right;
+    width: 30%;
+    position: relative;
+    top: 220px;
+}
+
+.square .square-right img{
+    width: 80px;
+    float: right;
+    position: relative;
+    right: 100px;
+}
+
+.md-3 img{
+    width: 800px;
+    position: relative;
+    left: 10%;
+    top: 50px;
+    float: left;
+}
+
+.md-omi{
+    float: right;
+    position: relative;
+    background-color: white;
+    top: -250px;
+    width: 500px;
+    padding: 20px 150px 50px 50px;
+    box-shadow: 0 10px 50px 0 rgba(0,0,0,0.05);
+    font-family: Poppins;
+    border-radius: 6px;
+}
+
+.md-omi h1{
+    font-weight: 100;
+}
+
+.md-omi p{
+    font-size: 13px;
+}
+
+.btn-learn{
+    background: linear-gradient(270deg, #273F97 0%, #2481DE 100%);
+    color: white;
+    border-radius: 6px;
+    border: none;
+    padding: 10px 30px 10px 30px;
+    font-family: Poppins;
+    font-size: 12px;
+}
+
+.md-4{
+    background-color: pink;
+    font-family: Poppins;
+    text-align: center;
+    height: 0;
+}
+
+.md-expe{
+    width: 50%;
+    position: relative; 
+    left: 25%;
+    padding: 200px 0 300px 0;
+}
+
+.btn-expe{
+    background: linear-gradient(270deg, #273F97 0%, #2481DE 100%);
+    color: white;
+}
+
+footer{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    top: 600px;
+    background-image: url(../Images/inspect/03082018-design/Page1/01-Home/background_bottom.png);
+    background-size: 100% 100%;
+}
+
+.table-footer{
+    width: 70%;
+    font-family: Poppins;
+    position: relative;
+    left: 15%;
+    right: 15%;
+    top: 50px;
+    font-size: 13px;
+    color: white;
+}
+
+.footer-logo{
+    width: 100px;
+}
+
+.footer-icon{
+    width: 20px;
+    margin-bottom: 50px;
+}
+
+.table-footer tr th{
+    text-align: left;
+}
+
+.table-footer tr td{
+    padding-top: 10px;
+}
+
+.table-footer tr td a{
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 1200px){
+    .navbar .navbar-brand{
+        left: 5%;
+    }
+    
+    .navbar .navbar-menu{
+        right: 5%;
+    }
+
+    .header-left{
+        left: 5%;
+    }
+
+    .header-right{
+        right: 5%;
+    }
+
+    .header-right h1{
+        font-size: 30px;
+        margin-left: 0;
+    }
+
+    .header-right p{
+        margin-left: 0;
+    }
+
+    .header-right .header-btn{
+        margin-left: 0;
+    }
+
+    .md-left{
+        left: 5%;
+    }
+
+    .block-right{
+        position: relative;
+        left: 50px;
+    }
+}
+
+@media (max-width: 992px){
+    .navbar-menu a{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .header-right h1{
+        font-size: 20px;
+    }
+
+    .header-right p{
+        font-size: 12px;
+    }
+
+    .md-3 img{
+        width: 600px;
+        top: 100px;
+    }
+
+    .md-omi{
+        top: -130px;
+    }
+
+    .table-footer{
+        top: 150px;
+    }
+}
+
+@media (max-width: 768px){
+    .header{
+        background-image: none;
+        height: 500px;
+    }
+
+    .navbar{
+        background-color: #3A7FD2;
+    }
+
+    .toggle-nav{
+        display: block;
+    }
+
+    .navbar .navbar-brand{
+        top: 20px;
+        float: right;
+        left: -15%;
+    }
+
+    .navbar .navbar-menu{
+        display: none;
+    }
+
+    .header-left{
+        display: none;
+    }
+
+    .header-right{
+        width: 90%;
+        left: -5%;
+        right: 10%;
+    }
+
+    .header-right h1{
+        color: black;
+        text-align: center;
+        font-size: 40px;
+        margin-left: 0;
+    }
+    
+    .header-right p{
+        color: black;
+        text-align: center;
+        font-size: 13px;
+        margin-left: 0;
+    }
+
+    .header-right .header-btn{
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .md-left{
+        width: 90%;
+        text-align: center;
+    }
+
+    .card{
+        display: none;
+    }
+
+    .md-2{
+        background-size: 100% 100%;
+        top: 0x;
+        margin-top: -100px;
+    }
+
+    .square{
+        width: 90%;
+        left: 5%;
+    }
+
+    .square-left{
+        position: relative;
+        top: -700px !important;
+        width: 90% !important;
+    }
+
+    .square-right{
+        display: none;
+    }
+
+    .btn-started{
+        background: linear-gradient(270deg, #273F97 0%, #2481DE 100%);
+        color: white;
+    }
+
+    .md-3 img{
+        width: 500px;
+        top: -200px;
+    }
+
+    .md-omi{
+        top: -350px;
+        padding-right: 0;
+    }
+
+    .md-expe{
+        width: 90%;
+        left: 5%;
+        top: -100px;
+        padding: 0px 0px 200px 0px;
+    }
+
+    .table-footer{
+        top: -50px;
+        width: 90%;
+        left: 5%;
+    }
+
+}
+
+@media (max-width: 500px){
+    .square-left{
+        position: relative;
+        top: -750px !important;
+        width: 90% !important;
+    }
+
+    .square-left h1{
+        font-size: 20px !important;
+    }
+
+    .md-3 img{
+        display: none;
+    }
+
+    .md-omi{
+        width: 100%;
+        top: -350px;
+    }
+
+    .table-footer{
+        left: 0;
+    }
+}
+
